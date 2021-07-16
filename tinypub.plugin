@@ -1,0 +1,9 @@
+[Core]
+Name = tinypub
+Module = task_tinypub
+
+[Documentation]
+Author = Kana Kana
+Version = 0.0.1
+Website = https://kyo.iroiro.party/
+Description = Create some ActivityPub objects for posts.

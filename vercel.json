@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "src": "/.*\\.inbox\\.jsonld",
+      "methods": [ "POST" ],
+      "status": 200
+    },
+    {
+      "src": "/.*\\.jsonld",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/activity+json"
+      }
+    },
+    {
+      "src": "/\\.well-known/webfinger",
+      "headers" : {
+        "Content-Type": "application/jrd+json"
+      }
+    }
+  ]
+}
